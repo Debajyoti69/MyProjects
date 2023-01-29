@@ -22,7 +22,7 @@ store=[]
 while k>0:
     
     print("\nremaining lives: ",k)
-    if k>7:
+    if k<7:
         print("your current situation is: ")
         print(hangmanArt.stages[k])
 
